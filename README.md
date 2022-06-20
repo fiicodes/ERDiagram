@@ -1,13 +1,13 @@
 SQL Queries
 
 
-Query for adding to base table:
+1.Query for adding to base table:
 
 
 insert into base(base_name)values("normal");
 
 
-Query for fetching data from base table 
+2.Query for fetching data from base table 
 
 
 select * 
@@ -15,7 +15,7 @@ select *
 from base;
 
 
-Query for adding data to size table:
+3.Query for adding data to size table:
 
 
 insert into size(size_description)
@@ -23,7 +23,7 @@ insert into size(size_description)
 values("small");
 
 
-Query for fetching data from size table:
+4.Query for fetching data from size table:
 
 
 select * 
@@ -31,7 +31,7 @@ select *
 from size;
 
 
-Query for adding data to topping table:
+5.Query for adding data to topping table:
 
 
 insert into topping(topping_name)
@@ -39,7 +39,7 @@ insert into topping(topping_name)
 values("cheese");
 
 
-Query for fetching data from topping table:
+6.Query for fetching data from topping table:
 
 
 select * 
@@ -47,7 +47,7 @@ select *
 from topping;
 
 
-Query for adding data to pizza table:
+7.Query for adding data to pizza table:
 
 
 insert into pizza(base_id,size_id,price)
@@ -55,7 +55,7 @@ insert into pizza(base_id,size_id,price)
 values(1,2,700);
 
 
-Query for fetching data from pizza table:
+8.Query for fetching data from pizza table:
 
 
 select * 
@@ -63,7 +63,7 @@ select *
 from pizza;
 
 
-Query for adding data to customer table:
+9.Query for adding data to customer table:
 
 
 insert into customer(customer_name,phone,address)
@@ -71,7 +71,7 @@ insert into customer(customer_name,phone,address)
 values("leo",'812999999','rose villa');
 
 
-Query for fetching data from customer table:
+10.Query for fetching data from customer table:
 
 
 select * 
@@ -79,7 +79,7 @@ select *
 from customer;
 
 
-Query for adding data to order table:
+11.Query for adding data to order table:
 
 
 insert into order(customer_id,order_date_time)
@@ -87,7 +87,7 @@ insert into order(customer_id,order_date_time)
 values(1,now());
 
 
-Query for fetching data from order table:
+12.Query for fetching data from order table:
 
 
 select * 
@@ -95,7 +95,7 @@ select *
 from order;
 
 
-Query for adding data to pizzatopping table:
+13.Query for adding data to pizzatopping table:
 
 
 insert into pizzatopping 
@@ -103,7 +103,7 @@ insert into pizzatopping
 values(1,1);
 
 
-Query for fetching data from pizzatopping table:
+14.Query for fetching data from pizzatopping table:
 
 
 select * 
@@ -111,7 +111,7 @@ select *
 from pizzatopping;
 
 
-Query for adding data to pizzaorder table:
+15.Query for adding data to pizzaorder table:
 
 
 insert into pizzaorder 
@@ -119,7 +119,7 @@ insert into pizzaorder
 values(1,2,1);
 
 
-Query for fetching data from pizzaorder table:
+16.Query for fetching data from pizzaorder table:
 
 
 select * 
