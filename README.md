@@ -3,7 +3,7 @@ SQL Queries
 
 1.Query for adding to base table:
 
-```console
+```bash
 insert into base(base_name)
 
 values("normal");
